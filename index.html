@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">	
+
+	<title>calcJQ</title>
+</head>
+<body>
+	<section id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="calc">
+						<h2>Расчет стоимости</h2>
+						<label for="card__edition">Выберите тираж</label><br>
+						<select class="form-control" name="edition" id="card__edition">
+							<option value="90">90</option>
+							<option value="120">120</option>
+							<option value="150">150</option>
+							<option value="180">180</option>
+							<option value="210">210</option>
+							<option value="240">240</option>
+							<option value="270">270</option>
+							<option value="300">300</option>
+							<option value="360">360</option>
+							<option value="420">420</option>
+							<option value="510">510</option>
+							<option value="600">600</option>
+							<option value="900">900</option>
+							<option value="1020">1020</option>
+							<option value="1500">1500</option>
+							<option value="3000">3000</option>
+						</select><br>
+						<label for="card__paper">Выберите бумагу</label>
+						<select name="card__paper" id="card__paper" class="form-control">
+							<option data-paper-ratio="6.8" value="Мелованная бумага (белая)">Мелованная бумага (белая)</option>
+							<option data-paper-ratio="40.5" value="Бумага повышенной белизны (SPLENDORGEL)">Бумага повышенной белизны (SPLENDORGEL)</option>
+							<option data-paper-ratio="45" value="Prestige Лён (белый)">Prestige Лён (белый)</option>
+						</select><br>
+						<label for="card__color">Выберите цвет</label>
+						<select name="card__color" id="card__color" class="form-control">
+							<option data-print="14" data-print-file="110" data-color="1" value="Односторонняя ч/б">Односторонняя ч/б</option>
+							<option data-print="28" data-print-file="220" data-color="2" value="Двусторонняя ч/б">Двусторонняя ч/б</option>
+							<option data-print="37" data-print-file="110" data-color="3" value="Односторонняя цветная">Односторонняя цветная</option>
+							<option data-print="51" data-print-file="220" data-color="4" value="Цветная с лицевой, ч/б с оборота">Цветная с лицевой, ч/б с оборота</option>
+							<option data-print="74" data-print-file="220" data-color="5" value="Двусторонняя цветная">Двусторонняя цветная</option>
+						</select><br>
+						<h4>
+							<small>Приблизительная</small><br>
+							Стоимость за тираж
+						</h4>
+						<p class="price">
+							<span id="final__price">0</span>
+							руб.
+						</p>
+					</div>
+					<!-- calc -->
+				</div>
+				<!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="card__images aligner">
+						<img src="img/work__1.jpg" alt="" id="card-1">
+						<img src="img/work__2.jpg" alt="" id="card-2">
+						<img src="img/work__3.jpg" alt="" id="card-3">
+						<img src="img/work__4.jpg" alt="" id="card-4">
+						<img src="img/work__5.jpg" alt="" id="card-5">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

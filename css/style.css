@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: consolas, sans-serif;
+	background-color: lightcyan;
+}
+.aligner {
+	text-align: center;
+}
+.calc {
+	border: 4px solid purple;
+	padding: 20px 40px;
+	margin-top: 40px;
+}
+h4 small {
+	color: red;
+}
+#final__price {
+	font-size: 40px;
+	font-weight: 900;
+}
+.card__images {
+	margin-top: 40px;
+}
+.card__images img {
+	display: none;
+	width: 70%;
+}
+#card-1 {
+	display: inline-block;
+}
